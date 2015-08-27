@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/vincent/projects/battles4/.git'
+let g:netrw_dirhist_2='/home/vincent/.putty'
+let g:netrw_dirhist_3='/home/vincent/.vim'
