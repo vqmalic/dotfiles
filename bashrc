@@ -121,3 +121,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Custom PS1
 # \[\e]0:\w\a] change the title of the window to working directory
 export PS1='\[\e]0;\w\a\]\[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n\$ '
+
+# CUDA
+export CUDA_HOME=/usr/local/cuda-7.5
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
+
+PATH=${CUDA_HOME}/bin:${PATH}
+export PATH
