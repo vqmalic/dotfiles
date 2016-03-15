@@ -126,5 +126,10 @@ export PS1='\[\e]0;\w\a\]\[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n\$ '
 export CUDA_HOME=/usr/local/cuda-7.5
 export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
 
+export THEANO_FLAGS='cuda.root=/usr/local/cuda-7.5,device=gpu,floatX=float32'
+export CUDA_ROOT=${CUDA_HOME}
+
 PATH=${CUDA_HOME}/bin:${PATH}
 export PATH
+
+alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
