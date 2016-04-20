@@ -133,3 +133,8 @@ PATH=${CUDA_HOME}/bin:${PATH}
 export PATH
 
 alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
+
+export NVM_DIR="/home/vincent/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+alias lm=". /home/vincent/lamachine/lamachine/bin/activate"
