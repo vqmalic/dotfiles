@@ -10,7 +10,6 @@ Plugin 'VundleVim/Vundle.vim' " Vundle manages itself
 Plugin 'kien/ctrlp.vim' " ctrlp for file navigation
 Plugin 'altercation/solarized' " solarized color-scheme
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'Valloric/YouCompleteMe' " YCM
 
 " Plugins go here
 
